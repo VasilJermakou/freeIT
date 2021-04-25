@@ -9,7 +9,7 @@ public class Main {
          * Имеется текст. Следует составить для него частотный словарь.
          * */
 
-        String text = "aaa bb c dddd ee fffffff";
+        String text = "Polina krasotka";
         System.out.println("Using countLetters method");
         Main.countLetters(text);
 
@@ -30,7 +30,7 @@ public class Main {
                     counter++;
             }
             if(counter > 0)
-                System.out.println("Letter " + current + " repeating" + counter + "times;");
+                System.out.println("Letter " + current + " repeating " + counter + " times;");
             counter = 0;
         }
     }
