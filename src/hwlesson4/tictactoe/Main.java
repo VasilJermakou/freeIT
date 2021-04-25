@@ -12,6 +12,8 @@ public class Main {
          * Игра продолжается до победы одного из игроков или ничьи.
          * */
 
+        //https://habr.com/ru/post/125999/
+
         /* * * * * * * * * * * * * * * * * * * * * *
         * FIRST VERSION                            *
         * NEED TO REWRITE USING BETTER CODE STILE  *
