@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xs:devices xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <xs:device name="DDR">
+            <xs:origin code="886">Taiwan</xs:origin>
+            <xs:price currency="USD">135</xs:price>
+            <xs:Type>INTERNAL_USE</xs:Type>
+            <xs:wattPowerConsumption>65</xs:wattPowerConsumption>
+            <xs:isCoolerAvailable>false</xs:isCoolerAvailable>
+            <xs:port>LPT</xs:port>
+            <xs:isCriticalDevice>true</xs:isCriticalDevice>
+        </xs:device>
+        <xs:device name="graphicsCard" >
+            <xs:origin code="886">China</xs:origin>
+            <xs:price currency="USD">195</xs:price>
+            <xs:Type>INTERNAL_USE</xs:Type>
+            <xs:wattPowerConsumption>140</xs:wattPowerConsumption>
+            <xs:isCoolerAvailable>true</xs:isCoolerAvailable>
+            <xs:port>USB</xs:port>
+            <xs:isCriticalDevice>true</xs:isCriticalDevice>
+        </xs:device>
+    </xs:devices>
+</root>
