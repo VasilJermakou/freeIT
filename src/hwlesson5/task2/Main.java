@@ -13,10 +13,7 @@ public class Main {
         String line = "abcdabcdabcd";
         String result = Main.changeSymbolOnIndexThreeToIndexZero(line);
         System.out.println(result);
-
-
     }//main ends
-
     /* static methods */
     public static String changeSymbolOnIndexThreeToIndexZero(String line){
         char [] chars = line.toCharArray();
@@ -29,7 +26,6 @@ public class Main {
             if(chars[i] == charOut)
                 chars[i] = charPut;
         }
-
         String result = Arrays.toString(chars);
         return result;
     }

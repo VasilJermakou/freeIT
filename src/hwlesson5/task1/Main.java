@@ -9,16 +9,12 @@ public class Main {
          до последнего вхождения символа(В).
          */
 
-
         System.out.println("*****************");
-        String line = "abcdefghij";
+        String line = "abababcdefghij";
         String output = subLine(line, 'c', 'g');
         System.out.println(output);
         System.out.println("*****************");
-
-
     }//main ends
-
     /* static methods */
     public static String subLine(String line, char charFrom, char charTo){
         char[] chars = new char[line.length()];
@@ -41,10 +37,7 @@ public class Main {
         for(int i = startIndex; i <= endIndex; i++){
             sb.append(chars[i]);
         }
-
         result = sb.toString();
-
         return result;
     }//method ends
-
 }//class ends

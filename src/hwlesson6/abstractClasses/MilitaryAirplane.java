@@ -98,10 +98,3 @@ public class MilitaryAirplane extends AirTransport{
     }
 
 }//class ends
-
-
-
-
-
-
-

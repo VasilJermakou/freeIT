@@ -9,10 +9,8 @@ public class Main {
          * */
 
         String line = "sdf!#%^poiu}{lkj<>.,/asdqwert";
-        Main.punctuationMarksCounter(line);
-
+        punctuationMarksCounter(line);
     }//main ends
-
     /* static methods */
     public static void punctuationMarksCounter(String line){
         char[] chars = new char[line.length()];
@@ -29,5 +27,4 @@ public class Main {
         }
         System.out.println("Counter = " + counter);
     }
-
 }//class ends

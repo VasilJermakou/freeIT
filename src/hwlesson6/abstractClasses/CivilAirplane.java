@@ -83,10 +83,3 @@ public class CivilAirplane extends AirTransport{
     }
 
 }//class ends
-
-
-
-
-
-
-

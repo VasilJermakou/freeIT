@@ -74,22 +74,3 @@ public class CargoCar extends LandTransport {
     }
 
 }//class ends
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

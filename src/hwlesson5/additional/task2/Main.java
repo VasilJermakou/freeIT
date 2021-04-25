@@ -12,10 +12,7 @@ public class Main {
          * */
 
         String line = "Oh jingle bells jingle bells jingle all the way";
-
         String[] words = line.split(" ");
-
-
         Pattern pattern1 = Pattern.compile("[a-zA-Z]$"); //\\w
 
         for(int i = 0; i < words.length; i++){
@@ -24,6 +21,5 @@ public class Main {
                 System.out.print(matcher1.group() + " ");
             }
         }
-
     }//main ends
 }//class ends
